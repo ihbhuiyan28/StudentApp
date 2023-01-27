@@ -1,4 +1,6 @@
-﻿namespace StudentApp.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace StudentApp.Models
 {
     public class Student
     {
@@ -8,6 +10,5 @@
         public string? Gender { get; set; }
         public string? Email { get; set; }
         public double Result { get; set; }
-        public DateTime Created { get; set; } = DateTime.Now;
     }
 }
